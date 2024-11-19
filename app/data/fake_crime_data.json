@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "county": "Los Angeles",
+        "case_number": "LA123456",
+        "ethnicity": "Hispanic",
+        "sentence_type": "Parole",
+        "aggregate_sentence_time": "3 years",
+        "prior_commitments": [
+            "Burglary",
+            "Vandalism"
+        ],
+        "current_commitments": [
+            "Drug Possession"
+        ]
+    },
+    {
+        "id": 2,
+        "county": "San Francisco",
+        "case_number": "SF789101",
+        "ethnicity": "Asian",
+        "sentence_type": "Probation",
+        "aggregate_sentence_time": "2 years",
+        "prior_commitments": [
+            "Theft"
+        ],
+        "current_commitments": [
+            "Fraud"
+        ]
+    },
+    {
+        "id": 3,
+        "county": "San Diego",
+        "case_number": "SD112131",
+        "ethnicity": "White",
+        "sentence_type": "Incarceration",
+        "aggregate_sentence_time": "5 years",
+        "prior_commitments": [
+            "Assault"
+        ],
+        "current_commitments": [
+            "Robbery",
+            "Arson"
+        ]
+    },
+    {
+        "id": 4,
+        "county": "Alameda",
+        "case_number": "AL415161",
+        "ethnicity": "Black",
+        "sentence_type": "Parole",
+        "aggregate_sentence_time": "4 years",
+        "prior_commitments": [
+            "Drug Trafficking"
+        ],
+        "current_commitments": [
+            "Illegal Firearms"
+        ]
+    },
+    {
+        "id": 5,
+        "county": "Orange",
+        "case_number": "OR718192",
+        "ethnicity": "Hispanic",
+        "sentence_type": "Incarceration",
+        "aggregate_sentence_time": "10 years",
+        "prior_commitments": [
+            "Car Theft",
+            "Drug Possession"
+        ],
+        "current_commitments": [
+            "Murder"
+        ]
+    }
+]

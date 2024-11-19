@@ -1,0 +1,7 @@
+Because the data is unbalanced between those
+flagged for review and those not flagged,
+we trained a machine learning model called a
+Balanced Random Forest Model. This model scores
+prisoners on how good they are for review to prioritize
+case reviews efficiently. We achieved a high recall,
+ensuring that the majority of truly elegible cases are flagged

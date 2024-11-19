@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Data Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="filterForm">
+            <label for="filterType">Choose a filter:</label>
+            <select id="filterType" name="filterType" onchange="updateFilterInput()">
+                <option value="">--Select--</option>
+                <option value="county">County</option>
+                <option value="ethnicity">Ethnicity</option>
+                <option value="sentence_type">Sentence Type</option>
+                <option value="eligible">Eligible</option>
+                <option value="eligibility_score">Eligibility Score</option>
+            </select>
+
+            <div id="filterInputContainer">
+                <!-- dynamic input will be rendered here -->
+            </div>
+
+            <button type="submit">Filter</button>
+        </form>
+
+        <div id="results">
+            <!-- table and pagination will appear here -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
